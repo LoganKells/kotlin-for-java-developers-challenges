@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c09326-2aa6-4919-9674-49f617f4fae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/mastermind/evaluateGuess.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/mastermind/playMastermind.kt" afterDir="false" />
+    <list default="true" id="57c09326-2aa6-4919-9674-49f617f4fae0" name="Changes" comment="Implemented the &quot;Master Mind&quot; challenge">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/nicestring/NiceString.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/taxipark/TaxiPark.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/taxipark/TaxiParkTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/mastermind/MastermindTestUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/mastermind/TestMastermindDifferentLetters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/mastermind/TestMastermindRepeatedLetters.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/nicestring/TestNiceString.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/taxipark/TaxiParkTestUtil.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/taxipark/TestTask1FakeDrivers.kt" afterDir="false" />
@@ -34,11 +16,18 @@
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/taxipark/TestTask4SmartPassengers.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/taxipark/TestTask5TheMostFrequentTripDurationPeriod.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/taxipark/TestTask6ParetoPrinciple.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -57,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/logankells/Documents/projects/kotlin-for-java-developers/kotlin-for-java-developers-challenges/src/test/kotlin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/logankells/Documents/projects/kotlin-for-java-developers/kotlin-for-java-developers-challenges/src/test/kotlin&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/kotlin" />
@@ -76,53 +66,7 @@
       <recent name="$PROJECT_DIR$/src/test/kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestTask1FakeDrivers">
-    <configuration name="TestTask1FakeDrivers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;taxipark.TestTask1FakeDrivers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTask2FaithfulPassengers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;taxipark.TestTask2FaithfulPassengers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestTask5TheMostFrequentTripDurationPeriod.test00">
     <configuration name="TestTask3FrequentPassengers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,7 +90,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'mastermind'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTask4SmartPassengers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mastermind.*&quot;" />
+            <option value="&quot;taxipark.TestTask4SmartPassengers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -169,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'nicestring'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTask4SmartPassengers.test03" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +126,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;nicestring.*&quot;" />
+            <option value="&quot;taxipark.TestTask4SmartPassengers.test03&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test00" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;taxipark.TestTask5TheMostFrequentTripDurationPeriod.test00&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTask5TheMostFrequentTripDurationPeriod.test03" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;taxipark.TestTask5TheMostFrequentTripDurationPeriod.test03&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestTask1FakeDrivers" />
+        <item itemvalue="Gradle.TestTask5TheMostFrequentTripDurationPeriod.test00" />
+        <item itemvalue="Gradle.TestTask4SmartPassengers" />
+        <item itemvalue="Gradle.TestTask5TheMostFrequentTripDurationPeriod.test03" />
         <item itemvalue="Gradle.TestTask3FrequentPassengers" />
-        <item itemvalue="Gradle.TestTask2FaithfulPassengers" />
-        <item itemvalue="Gradle.Tests in 'nicestring'" />
-        <item itemvalue="Gradle.Tests in 'mastermind'" />
+        <item itemvalue="Gradle.TestTask4SmartPassengers.test03" />
       </list>
     </recent_temporary>
   </component>
@@ -210,8 +200,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660696113169</updated>
-      <workItem from="1660696114432" duration="143000" />
+      <workItem from="1660696114432" duration="1046000" />
+      <workItem from="1660755712684" duration="3614000" />
+      <workItem from="1660771543660" duration="2926000" />
     </task>
+    <task id="LOCAL-00001" summary="Created project">
+      <created>1660696623037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660696623037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented the &quot;Master Mind&quot; challenge">
+      <created>1660696653722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660696653722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,5 +234,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created project" />
+    <MESSAGE value="Implemented the &quot;Master Mind&quot; challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the &quot;Master Mind&quot; challenge" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/taxipark/TaxiParkTask.kt</url>
+          <line>125</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
